@@ -888,3 +888,39 @@ Alternately, you can install this by running `pip install pycaret[models]`
 2025-05-12 21:47:17,371:WARNING:c:\Users\RAUL\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
   warnings.warn(
 
+2025-05-12 22:00:56,427:INFO:Initializing save_model()
+2025-05-12 22:00:56,428:INFO:save_model(model=LinearRegression(n_jobs=-1), model_name=modelo_precio_final, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\RAUL\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['area_m2', 'num_habitaciones',
+                                             'num_banos', 'antiguedad_anos',
+                                             'vista_mar'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['distrito'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['distrito'],
+                                    transformer=OneHotEncoder(cols=['distrito'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize',
+                 TransformerWrapper(transformer=StandardScaler()))]), verbose=True, use_case=MLUsecase.REGRESSION, kwargs={})
+2025-05-12 22:00:56,428:INFO:Adding model into prep_pipe
+2025-05-12 22:00:56,439:INFO:modelo_precio_final.pkl saved in current working directory
+2025-05-12 22:00:56,448:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['area_m2', 'num_habitaciones',
+                                             'num_banos', 'antiguedad_anos',
+                                             'vista_mar'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['distrito'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['distrito'],
+                                    transformer=OneHotEncoder(cols=['distrito'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model', LinearRegression(n_jobs=-1))])
+2025-05-12 22:00:56,448:INFO:save_model() successfully completed......................................
