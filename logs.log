@@ -21404,3 +21404,329 @@ Alternately, you can install this by running `pip install pycaret[models]`
                    random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
                    warm_start=False)
 2025-05-26 12:00:42,151:INFO:compare_models() successfully completed......................................
+2025-05-26 12:06:27,684:INFO:Initializing create_model()
+2025-05-26 12:06:27,685:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=dt, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-26 12:06:27,685:INFO:Checking exceptions
+2025-05-26 12:06:27,701:INFO:Importing libraries
+2025-05-26 12:06:27,701:INFO:Copying training dataset
+2025-05-26 12:06:27,714:INFO:Defining folds
+2025-05-26 12:06:27,714:INFO:Declaring metric variables
+2025-05-26 12:06:27,719:INFO:Importing untrained model
+2025-05-26 12:06:27,724:INFO:Decision Tree Classifier Imported successfully
+2025-05-26 12:06:27,733:INFO:Starting cross validation
+2025-05-26 12:06:27,752:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-26 12:06:40,647:INFO:Calculating mean and std
+2025-05-26 12:06:40,652:INFO:Creating metrics dataframe
+2025-05-26 12:06:40,666:INFO:Finalizing model
+2025-05-26 12:06:40,829:INFO:[LightGBM] [Info] Number of positive: 3009, number of negative: 3009
+2025-05-26 12:06:40,831:INFO:[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000783 seconds.
+2025-05-26 12:06:40,831:INFO:You can set `force_col_wise=true` to remove the overhead.
+2025-05-26 12:06:40,831:INFO:[LightGBM] [Info] Total Bins 4807
+2025-05-26 12:06:40,831:INFO:[LightGBM] [Info] Number of data points in the train set: 6018, number of used features: 19
+2025-05-26 12:06:40,832:INFO:[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.500000 -> initscore=0.000000
+2025-05-26 12:06:41,081:INFO:Uploading results into container
+2025-05-26 12:06:41,082:INFO:Uploading model into container now
+2025-05-26 12:06:41,109:INFO:_master_model_container: 43
+2025-05-26 12:06:41,110:INFO:_display_container: 5
+2025-05-26 12:06:41,110:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best')
+2025-05-26 12:06:41,111:INFO:create_model() successfully completed......................................
+2025-05-26 12:06:44,868:INFO:Initializing tune_model()
+2025-05-26 12:06:44,869:INFO:tune_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best'), fold=None, round=4, n_iter=10, custom_grid=None, optimize=Recall, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={})
+2025-05-26 12:06:44,869:INFO:Checking exceptions
+2025-05-26 12:06:44,890:INFO:Copying training dataset
+2025-05-26 12:06:44,899:INFO:Checking base model
+2025-05-26 12:06:44,899:INFO:Base model : Decision Tree Classifier
+2025-05-26 12:06:44,905:INFO:Declaring metric variables
+2025-05-26 12:06:44,911:INFO:Defining Hyperparameters
+2025-05-26 12:06:45,097:INFO:Tuning with n_jobs=-1
+2025-05-26 12:06:45,097:INFO:Initializing RandomizedSearchCV
+2025-05-26 12:07:29,356:INFO:best_params: {'actual_estimator__min_samples_split': 9, 'actual_estimator__min_samples_leaf': 6, 'actual_estimator__min_impurity_decrease': 0.0005, 'actual_estimator__max_features': 1.0, 'actual_estimator__max_depth': 15, 'actual_estimator__criterion': 'gini'}
+2025-05-26 12:07:29,358:INFO:Hyperparameter search completed
+2025-05-26 12:07:29,359:INFO:SubProcess create_model() called ==================================
+2025-05-26 12:07:29,360:INFO:Initializing create_model()
+2025-05-26 12:07:29,360:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best'), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000002140C260E10>, model_only=True, return_train_score=False, error_score=0.0, kwargs={'min_samples_split': 9, 'min_samples_leaf': 6, 'min_impurity_decrease': 0.0005, 'max_features': 1.0, 'max_depth': 15, 'criterion': 'gini'})
+2025-05-26 12:07:29,361:INFO:Checking exceptions
+2025-05-26 12:07:29,361:INFO:Importing libraries
+2025-05-26 12:07:29,361:INFO:Copying training dataset
+2025-05-26 12:07:29,378:INFO:Defining folds
+2025-05-26 12:07:29,378:INFO:Declaring metric variables
+2025-05-26 12:07:29,388:INFO:Importing untrained model
+2025-05-26 12:07:29,388:INFO:Declaring custom model
+2025-05-26 12:07:29,400:INFO:Decision Tree Classifier Imported successfully
+2025-05-26 12:07:29,420:INFO:Starting cross validation
+2025-05-26 12:07:29,441:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-26 12:07:32,174:INFO:Calculating mean and std
+2025-05-26 12:07:32,176:INFO:Creating metrics dataframe
+2025-05-26 12:07:32,186:INFO:Finalizing model
+2025-05-26 12:07:32,359:INFO:[LightGBM] [Info] Number of positive: 3009, number of negative: 3009
+2025-05-26 12:07:32,361:INFO:[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000993 seconds.
+2025-05-26 12:07:32,361:INFO:You can set `force_col_wise=true` to remove the overhead.
+2025-05-26 12:07:32,361:INFO:[LightGBM] [Info] Total Bins 4807
+2025-05-26 12:07:32,362:INFO:[LightGBM] [Info] Number of data points in the train set: 6018, number of used features: 19
+2025-05-26 12:07:32,362:INFO:[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.500000 -> initscore=0.000000
+2025-05-26 12:07:32,718:INFO:Uploading results into container
+2025-05-26 12:07:32,719:INFO:Uploading model into container now
+2025-05-26 12:07:32,720:INFO:_master_model_container: 44
+2025-05-26 12:07:32,720:INFO:_display_container: 6
+2025-05-26 12:07:32,721:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=15, max_features=1.0, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0005, min_samples_leaf=6,
+                       min_samples_split=9, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best')
+2025-05-26 12:07:32,722:INFO:create_model() successfully completed......................................
+2025-05-26 12:07:32,931:INFO:SubProcess create_model() end ==================================
+2025-05-26 12:07:32,931:INFO:choose_better activated
+2025-05-26 12:07:32,938:INFO:SubProcess create_model() called ==================================
+2025-05-26 12:07:32,939:INFO:Initializing create_model()
+2025-05-26 12:07:32,939:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best'), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-26 12:07:32,939:INFO:Checking exceptions
+2025-05-26 12:07:32,941:INFO:Importing libraries
+2025-05-26 12:07:32,942:INFO:Copying training dataset
+2025-05-26 12:07:32,953:INFO:Defining folds
+2025-05-26 12:07:32,953:INFO:Declaring metric variables
+2025-05-26 12:07:32,953:INFO:Importing untrained model
+2025-05-26 12:07:32,953:INFO:Declaring custom model
+2025-05-26 12:07:32,954:INFO:Decision Tree Classifier Imported successfully
+2025-05-26 12:07:32,954:INFO:Starting cross validation
+2025-05-26 12:07:32,977:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-26 12:07:36,266:INFO:Calculating mean and std
+2025-05-26 12:07:36,267:INFO:Creating metrics dataframe
+2025-05-26 12:07:36,269:INFO:Finalizing model
+2025-05-26 12:07:36,394:INFO:[LightGBM] [Info] Number of positive: 3009, number of negative: 3009
+2025-05-26 12:07:36,396:INFO:[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000778 seconds.
+2025-05-26 12:07:36,396:INFO:You can set `force_col_wise=true` to remove the overhead.
+2025-05-26 12:07:36,396:INFO:[LightGBM] [Info] Total Bins 4807
+2025-05-26 12:07:36,396:INFO:[LightGBM] [Info] Number of data points in the train set: 6018, number of used features: 19
+2025-05-26 12:07:36,396:INFO:[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.500000 -> initscore=0.000000
+2025-05-26 12:07:36,693:INFO:Uploading results into container
+2025-05-26 12:07:36,695:INFO:Uploading model into container now
+2025-05-26 12:07:36,696:INFO:_master_model_container: 45
+2025-05-26 12:07:36,696:INFO:_display_container: 7
+2025-05-26 12:07:36,697:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best')
+2025-05-26 12:07:36,697:INFO:create_model() successfully completed......................................
+2025-05-26 12:07:36,895:INFO:SubProcess create_model() end ==================================
+2025-05-26 12:07:36,896:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best') result for Recall is 0.3563
+2025-05-26 12:07:36,897:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=15, max_features=1.0, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0005, min_samples_leaf=6,
+                       min_samples_split=9, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best') result for Recall is 0.5053
+2025-05-26 12:07:36,897:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=15, max_features=1.0, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0005, min_samples_leaf=6,
+                       min_samples_split=9, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best') is best model
+2025-05-26 12:07:36,898:INFO:choose_better completed
+2025-05-26 12:07:36,909:INFO:_master_model_container: 45
+2025-05-26 12:07:36,910:INFO:_display_container: 6
+2025-05-26 12:07:36,910:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=15, max_features=1.0, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0005, min_samples_leaf=6,
+                       min_samples_split=9, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best')
+2025-05-26 12:07:36,910:INFO:tune_model() successfully completed......................................
+2025-05-26 12:07:44,029:INFO:Initializing tune_model()
+2025-05-26 12:07:44,030:INFO:tune_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best'), fold=None, round=4, n_iter=10, custom_grid=None, optimize=AUC, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={})
+2025-05-26 12:07:44,030:INFO:Checking exceptions
+2025-05-26 12:07:44,052:INFO:Copying training dataset
+2025-05-26 12:07:44,059:INFO:Checking base model
+2025-05-26 12:07:44,059:INFO:Base model : Decision Tree Classifier
+2025-05-26 12:07:44,066:INFO:Declaring metric variables
+2025-05-26 12:07:44,070:INFO:Defining Hyperparameters
+2025-05-26 12:07:44,387:INFO:Tuning with n_jobs=-1
+2025-05-26 12:07:44,387:INFO:Initializing RandomizedSearchCV
+2025-05-26 12:08:18,567:INFO:best_params: {'actual_estimator__min_samples_split': 2, 'actual_estimator__min_samples_leaf': 5, 'actual_estimator__min_impurity_decrease': 0, 'actual_estimator__max_features': 'sqrt', 'actual_estimator__max_depth': 3, 'actual_estimator__criterion': 'entropy'}
+2025-05-26 12:08:18,569:INFO:Hyperparameter search completed
+2025-05-26 12:08:18,569:INFO:SubProcess create_model() called ==================================
+2025-05-26 12:08:18,571:INFO:Initializing create_model()
+2025-05-26 12:08:18,571:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best'), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000002140C061690>, model_only=True, return_train_score=False, error_score=0.0, kwargs={'min_samples_split': 2, 'min_samples_leaf': 5, 'min_impurity_decrease': 0, 'max_features': 'sqrt', 'max_depth': 3, 'criterion': 'entropy'})
+2025-05-26 12:08:18,571:INFO:Checking exceptions
+2025-05-26 12:08:18,571:INFO:Importing libraries
+2025-05-26 12:08:18,572:INFO:Copying training dataset
+2025-05-26 12:08:18,586:INFO:Defining folds
+2025-05-26 12:08:18,586:INFO:Declaring metric variables
+2025-05-26 12:08:18,590:INFO:Importing untrained model
+2025-05-26 12:08:18,590:INFO:Declaring custom model
+2025-05-26 12:08:18,600:INFO:Decision Tree Classifier Imported successfully
+2025-05-26 12:08:18,611:INFO:Starting cross validation
+2025-05-26 12:08:18,630:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-26 12:08:22,018:INFO:Calculating mean and std
+2025-05-26 12:08:22,020:INFO:Creating metrics dataframe
+2025-05-26 12:08:22,028:INFO:Finalizing model
+2025-05-26 12:08:22,200:INFO:[LightGBM] [Info] Number of positive: 3009, number of negative: 3009
+2025-05-26 12:08:22,202:INFO:[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001049 seconds.
+2025-05-26 12:08:22,202:INFO:You can set `force_col_wise=true` to remove the overhead.
+2025-05-26 12:08:22,202:INFO:[LightGBM] [Info] Total Bins 4807
+2025-05-26 12:08:22,203:INFO:[LightGBM] [Info] Number of data points in the train set: 6018, number of used features: 19
+2025-05-26 12:08:22,203:INFO:[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.500000 -> initscore=0.000000
+2025-05-26 12:08:22,450:INFO:Uploading results into container
+2025-05-26 12:08:22,452:INFO:Uploading model into container now
+2025-05-26 12:08:22,453:INFO:_master_model_container: 46
+2025-05-26 12:08:22,453:INFO:_display_container: 7
+2025-05-26 12:08:22,454:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='entropy',
+                       max_depth=3, max_features='sqrt', max_leaf_nodes=None,
+                       min_impurity_decrease=0, min_samples_leaf=5,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best')
+2025-05-26 12:08:22,454:INFO:create_model() successfully completed......................................
+2025-05-26 12:08:22,639:INFO:SubProcess create_model() end ==================================
+2025-05-26 12:08:22,640:INFO:choose_better activated
+2025-05-26 12:08:22,644:INFO:SubProcess create_model() called ==================================
+2025-05-26 12:08:22,644:INFO:Initializing create_model()
+2025-05-26 12:08:22,645:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best'), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-26 12:08:22,645:INFO:Checking exceptions
+2025-05-26 12:08:22,646:INFO:Importing libraries
+2025-05-26 12:08:22,646:INFO:Copying training dataset
+2025-05-26 12:08:22,655:INFO:Defining folds
+2025-05-26 12:08:22,655:INFO:Declaring metric variables
+2025-05-26 12:08:22,655:INFO:Importing untrained model
+2025-05-26 12:08:22,655:INFO:Declaring custom model
+2025-05-26 12:08:22,656:INFO:Decision Tree Classifier Imported successfully
+2025-05-26 12:08:22,656:INFO:Starting cross validation
+2025-05-26 12:08:22,671:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-26 12:08:26,459:INFO:Calculating mean and std
+2025-05-26 12:08:26,461:INFO:Creating metrics dataframe
+2025-05-26 12:08:26,464:INFO:Finalizing model
+2025-05-26 12:08:26,703:INFO:[LightGBM] [Info] Number of positive: 3009, number of negative: 3009
+2025-05-26 12:08:26,705:INFO:[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000938 seconds.
+2025-05-26 12:08:26,705:INFO:You can set `force_col_wise=true` to remove the overhead.
+2025-05-26 12:08:26,706:INFO:[LightGBM] [Info] Total Bins 4807
+2025-05-26 12:08:26,706:INFO:[LightGBM] [Info] Number of data points in the train set: 6018, number of used features: 19
+2025-05-26 12:08:26,707:INFO:[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.500000 -> initscore=0.000000
+2025-05-26 12:08:27,130:INFO:Uploading results into container
+2025-05-26 12:08:27,131:INFO:Uploading model into container now
+2025-05-26 12:08:27,132:INFO:_master_model_container: 47
+2025-05-26 12:08:27,132:INFO:_display_container: 8
+2025-05-26 12:08:27,133:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best')
+2025-05-26 12:08:27,133:INFO:create_model() successfully completed......................................
+2025-05-26 12:08:27,330:INFO:SubProcess create_model() end ==================================
+2025-05-26 12:08:27,331:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best') result for AUC is 0.498
+2025-05-26 12:08:27,331:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='entropy',
+                       max_depth=3, max_features='sqrt', max_leaf_nodes=None,
+                       min_impurity_decrease=0, min_samples_leaf=5,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best') result for AUC is 0.5224
+2025-05-26 12:08:27,332:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='entropy',
+                       max_depth=3, max_features='sqrt', max_leaf_nodes=None,
+                       min_impurity_decrease=0, min_samples_leaf=5,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best') is best model
+2025-05-26 12:08:27,332:INFO:choose_better completed
+2025-05-26 12:08:27,347:INFO:_master_model_container: 47
+2025-05-26 12:08:27,347:INFO:_display_container: 7
+2025-05-26 12:08:27,348:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='entropy',
+                       max_depth=3, max_features='sqrt', max_leaf_nodes=None,
+                       min_impurity_decrease=0, min_samples_leaf=5,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best')
+2025-05-26 12:08:27,348:INFO:tune_model() successfully completed......................................
+2025-05-26 12:08:40,550:INFO:Initializing plot_model()
+2025-05-26 12:08:40,550:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best'), plot=confusion_matrix, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2025-05-26 12:08:40,551:INFO:Checking exceptions
+2025-05-26 12:08:40,558:INFO:Preloading libraries
+2025-05-26 12:08:40,559:INFO:Copying training dataset
+2025-05-26 12:08:40,559:INFO:Plot type: confusion_matrix
+2025-05-26 12:08:40,712:INFO:Fitting Model
+2025-05-26 12:08:40,712:WARNING:c:\Users\RAUL\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\base.py:493: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+
+2025-05-26 12:08:40,713:INFO:Scoring test/hold-out set
+2025-05-26 12:08:40,913:INFO:Visual Rendered Successfully
+2025-05-26 12:08:41,108:INFO:plot_model() successfully completed......................................
+2025-05-26 12:08:45,318:INFO:Initializing evaluate_model()
+2025-05-26 12:08:45,319:INFO:evaluate_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best'), fold=None, fit_kwargs=None, plot_kwargs=None, feature_name=None, groups=None)
+2025-05-26 12:08:45,331:INFO:Initializing plot_model()
+2025-05-26 12:08:45,331:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best'), plot=pipeline, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2025-05-26 12:08:45,332:INFO:Checking exceptions
+2025-05-26 12:08:45,334:INFO:Preloading libraries
+2025-05-26 12:08:45,335:INFO:Copying training dataset
+2025-05-26 12:08:45,335:INFO:Plot type: pipeline
+2025-05-26 12:08:45,619:INFO:Visual Rendered Successfully
+2025-05-26 12:08:45,780:INFO:plot_model() successfully completed......................................
+2025-05-26 12:08:53,650:INFO:Initializing evaluate_model()
+2025-05-26 12:08:53,651:INFO:evaluate_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='entropy',
+                       max_depth=3, max_features='sqrt', max_leaf_nodes=None,
+                       min_impurity_decrease=0, min_samples_leaf=5,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best'), fold=None, fit_kwargs=None, plot_kwargs=None, feature_name=None, groups=None)
+2025-05-26 12:08:53,666:INFO:Initializing plot_model()
+2025-05-26 12:08:53,666:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='entropy',
+                       max_depth=3, max_features='sqrt', max_leaf_nodes=None,
+                       min_impurity_decrease=0, min_samples_leaf=5,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best'), plot=pipeline, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2025-05-26 12:08:53,666:INFO:Checking exceptions
+2025-05-26 12:08:53,671:INFO:Preloading libraries
+2025-05-26 12:08:53,671:INFO:Copying training dataset
+2025-05-26 12:08:53,672:INFO:Plot type: pipeline
+2025-05-26 12:08:53,893:INFO:Visual Rendered Successfully
+2025-05-26 12:08:54,061:INFO:plot_model() successfully completed......................................
+2025-05-26 12:08:55,721:INFO:Initializing plot_model()
+2025-05-26 12:08:55,721:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='entropy',
+                       max_depth=3, max_features='sqrt', max_leaf_nodes=None,
+                       min_impurity_decrease=0, min_samples_leaf=5,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best'), plot=ks, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2025-05-26 12:08:55,721:INFO:Checking exceptions
+2025-05-26 12:08:55,725:INFO:Preloading libraries
+2025-05-26 12:08:55,725:INFO:Copying training dataset
+2025-05-26 12:08:55,725:INFO:Plot type: ks
+2025-05-26 12:08:55,726:INFO:Generating predictions / predict_proba on X_test
+2025-05-26 12:08:55,957:INFO:Visual Rendered Successfully
+2025-05-26 12:08:56,128:INFO:plot_model() successfully completed......................................
