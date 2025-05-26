@@ -21936,3 +21936,421 @@ Alternately, you can install this by running `pip install pycaret[models]`
 2025-05-26 14:48:14,255:INFO:Defining Hyperparameters
 2025-05-26 14:48:14,496:INFO:Tuning with n_jobs=-1
 2025-05-26 14:48:14,496:INFO:Initializing RandomizedSearchCV
+2025-05-26 14:48:22,191:INFO:Initializing tune_model()
+2025-05-26 14:48:22,191:INFO:tune_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=None, round=4, n_iter=10, custom_grid=None, optimize=AUC, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={})
+2025-05-26 14:48:22,192:INFO:Checking exceptions
+2025-05-26 14:48:22,215:INFO:Copying training dataset
+2025-05-26 14:48:22,221:INFO:Checking base model
+2025-05-26 14:48:22,221:INFO:Base model : Logistic Regression
+2025-05-26 14:48:22,227:INFO:Declaring metric variables
+2025-05-26 14:48:22,231:INFO:Defining Hyperparameters
+2025-05-26 14:48:22,486:INFO:Tuning with n_jobs=-1
+2025-05-26 14:48:22,486:INFO:Initializing RandomizedSearchCV
+2025-05-26 14:49:15,828:INFO:best_params: {'actual_estimator__class_weight': {}, 'actual_estimator__C': 8.354}
+2025-05-26 14:49:15,830:INFO:Hyperparameter search completed
+2025-05-26 14:49:15,830:INFO:SubProcess create_model() called ==================================
+2025-05-26 14:49:15,831:INFO:Initializing create_model()
+2025-05-26 14:49:15,832:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000002140C4BFD50>, model_only=True, return_train_score=False, error_score=0.0, kwargs={'class_weight': {}, 'C': 8.354})
+2025-05-26 14:49:15,833:INFO:Checking exceptions
+2025-05-26 14:49:15,833:INFO:Importing libraries
+2025-05-26 14:49:15,833:INFO:Copying training dataset
+2025-05-26 14:49:15,848:INFO:Defining folds
+2025-05-26 14:49:15,848:INFO:Declaring metric variables
+2025-05-26 14:49:15,857:INFO:Importing untrained model
+2025-05-26 14:49:15,858:INFO:Declaring custom model
+2025-05-26 14:49:15,866:INFO:Logistic Regression Imported successfully
+2025-05-26 14:49:15,882:INFO:Starting cross validation
+2025-05-26 14:49:15,914:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-26 14:49:19,554:INFO:Calculating mean and std
+2025-05-26 14:49:19,558:INFO:Creating metrics dataframe
+2025-05-26 14:49:19,572:INFO:Finalizing model
+2025-05-26 14:49:19,793:INFO:[LightGBM] [Info] Number of positive: 3009, number of negative: 3009
+2025-05-26 14:49:19,795:INFO:[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001150 seconds.
+2025-05-26 14:49:19,795:INFO:You can set `force_col_wise=true` to remove the overhead.
+2025-05-26 14:49:19,795:INFO:[LightGBM] [Info] Total Bins 4807
+2025-05-26 14:49:19,796:INFO:[LightGBM] [Info] Number of data points in the train set: 6018, number of used features: 19
+2025-05-26 14:49:19,797:INFO:[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.500000 -> initscore=0.000000
+2025-05-26 14:49:20,089:INFO:Uploading results into container
+2025-05-26 14:49:20,090:INFO:Uploading model into container now
+2025-05-26 14:49:20,091:INFO:_master_model_container: 50
+2025-05-26 14:49:20,093:INFO:_display_container: 11
+2025-05-26 14:49:20,093:INFO:LogisticRegression(C=8.354, class_weight={}, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2025-05-26 14:49:20,094:INFO:create_model() successfully completed......................................
+2025-05-26 14:49:20,293:INFO:SubProcess create_model() end ==================================
+2025-05-26 14:49:20,293:INFO:choose_better activated
+2025-05-26 14:49:20,303:INFO:SubProcess create_model() called ==================================
+2025-05-26 14:49:20,305:INFO:Initializing create_model()
+2025-05-26 14:49:20,305:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-26 14:49:20,305:INFO:Checking exceptions
+2025-05-26 14:49:20,308:INFO:Importing libraries
+2025-05-26 14:49:20,308:INFO:Copying training dataset
+2025-05-26 14:49:20,324:INFO:Defining folds
+2025-05-26 14:49:20,324:INFO:Declaring metric variables
+2025-05-26 14:49:20,324:INFO:Importing untrained model
+2025-05-26 14:49:20,324:INFO:Declaring custom model
+2025-05-26 14:49:20,325:INFO:Logistic Regression Imported successfully
+2025-05-26 14:49:20,325:INFO:Starting cross validation
+2025-05-26 14:49:20,345:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-26 14:49:23,403:INFO:Calculating mean and std
+2025-05-26 14:49:23,405:INFO:Creating metrics dataframe
+2025-05-26 14:49:23,413:INFO:Finalizing model
+2025-05-26 14:49:23,579:INFO:[LightGBM] [Info] Number of positive: 3009, number of negative: 3009
+2025-05-26 14:49:23,580:INFO:[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.000578 seconds.
+2025-05-26 14:49:23,580:INFO:You can set `force_row_wise=true` to remove the overhead.
+2025-05-26 14:49:23,580:INFO:And if memory is not enough, you can set `force_col_wise=true`.
+2025-05-26 14:49:23,581:INFO:[LightGBM] [Info] Total Bins 4807
+2025-05-26 14:49:23,581:INFO:[LightGBM] [Info] Number of data points in the train set: 6018, number of used features: 19
+2025-05-26 14:49:23,581:INFO:[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.500000 -> initscore=0.000000
+2025-05-26 14:49:23,832:INFO:Uploading results into container
+2025-05-26 14:49:23,833:INFO:Uploading model into container now
+2025-05-26 14:49:23,833:INFO:_master_model_container: 51
+2025-05-26 14:49:23,833:INFO:_display_container: 12
+2025-05-26 14:49:23,834:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2025-05-26 14:49:23,834:INFO:create_model() successfully completed......................................
+2025-05-26 14:49:24,028:INFO:SubProcess create_model() end ==================================
+2025-05-26 14:49:24,029:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False) result for AUC is 0.5176
+2025-05-26 14:49:24,030:INFO:LogisticRegression(C=8.354, class_weight={}, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False) result for AUC is 0.5176
+2025-05-26 14:49:24,030:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False) is best model
+2025-05-26 14:49:24,030:INFO:choose_better completed
+2025-05-26 14:49:24,031:INFO:Original model was better than the tuned model, hence it will be returned. NOTE: The display metrics are for the tuned model (not the original one).
+2025-05-26 14:49:24,047:INFO:_master_model_container: 51
+2025-05-26 14:49:24,048:INFO:_display_container: 11
+2025-05-26 14:49:24,048:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2025-05-26 14:49:24,048:INFO:tune_model() successfully completed......................................
+2025-05-26 14:49:26,019:INFO:Initializing plot_model()
+2025-05-26 14:49:26,020:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), plot=confusion_matrix, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2025-05-26 14:49:26,020:INFO:Checking exceptions
+2025-05-26 14:49:26,025:INFO:Preloading libraries
+2025-05-26 14:49:26,025:INFO:Copying training dataset
+2025-05-26 14:49:26,025:INFO:Plot type: confusion_matrix
+2025-05-26 14:49:26,188:INFO:Fitting Model
+2025-05-26 14:49:26,188:WARNING:c:\Users\RAUL\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\base.py:493: UserWarning: X does not have valid feature names, but LogisticRegression was fitted with feature names
+  warnings.warn(
+
+2025-05-26 14:49:26,188:INFO:Scoring test/hold-out set
+2025-05-26 14:49:26,358:INFO:Visual Rendered Successfully
+2025-05-26 14:49:26,581:INFO:plot_model() successfully completed......................................
+2025-05-26 14:49:38,085:INFO:Initializing evaluate_model()
+2025-05-26 14:49:38,085:INFO:evaluate_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=None, fit_kwargs=None, plot_kwargs=None, feature_name=None, groups=None)
+2025-05-26 14:49:38,100:INFO:Initializing plot_model()
+2025-05-26 14:49:38,100:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), plot=pipeline, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2025-05-26 14:49:38,100:INFO:Checking exceptions
+2025-05-26 14:49:38,104:INFO:Preloading libraries
+2025-05-26 14:49:38,104:INFO:Copying training dataset
+2025-05-26 14:49:38,104:INFO:Plot type: pipeline
+2025-05-26 14:49:38,493:INFO:Visual Rendered Successfully
+2025-05-26 14:49:38,665:INFO:plot_model() successfully completed......................................
+2025-05-26 14:49:40,286:INFO:Initializing plot_model()
+2025-05-26 14:49:40,286:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), plot=ks, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2025-05-26 14:49:40,286:INFO:Checking exceptions
+2025-05-26 14:49:40,291:INFO:Preloading libraries
+2025-05-26 14:49:40,291:INFO:Copying training dataset
+2025-05-26 14:49:40,291:INFO:Plot type: ks
+2025-05-26 14:49:40,291:INFO:Generating predictions / predict_proba on X_test
+2025-05-26 14:49:40,820:INFO:Visual Rendered Successfully
+2025-05-26 14:49:41,079:INFO:plot_model() successfully completed......................................
+2025-05-26 14:49:54,060:INFO:Initializing tune_model()
+2025-05-26 14:49:54,060:INFO:tune_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=None, round=4, n_iter=10, custom_grid=None, optimize=Recall, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={})
+2025-05-26 14:49:54,061:INFO:Checking exceptions
+2025-05-26 14:49:54,104:INFO:Copying training dataset
+2025-05-26 14:49:54,115:INFO:Checking base model
+2025-05-26 14:49:54,115:INFO:Base model : Logistic Regression
+2025-05-26 14:49:54,123:INFO:Declaring metric variables
+2025-05-26 14:49:54,130:INFO:Defining Hyperparameters
+2025-05-26 14:49:54,501:INFO:Tuning with n_jobs=-1
+2025-05-26 14:49:54,501:INFO:Initializing RandomizedSearchCV
+2025-05-26 14:51:03,904:INFO:best_params: {'actual_estimator__class_weight': {}, 'actual_estimator__C': 8.354}
+2025-05-26 14:51:03,905:INFO:Hyperparameter search completed
+2025-05-26 14:51:03,905:INFO:SubProcess create_model() called ==================================
+2025-05-26 14:51:03,907:INFO:Initializing create_model()
+2025-05-26 14:51:03,909:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000214059EC4D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={'class_weight': {}, 'C': 8.354})
+2025-05-26 14:51:03,909:INFO:Checking exceptions
+2025-05-26 14:51:03,909:INFO:Importing libraries
+2025-05-26 14:51:03,910:INFO:Copying training dataset
+2025-05-26 14:51:03,929:INFO:Defining folds
+2025-05-26 14:51:03,929:INFO:Declaring metric variables
+2025-05-26 14:51:03,940:INFO:Importing untrained model
+2025-05-26 14:51:03,940:INFO:Declaring custom model
+2025-05-26 14:51:03,952:INFO:Logistic Regression Imported successfully
+2025-05-26 14:51:03,968:INFO:Starting cross validation
+2025-05-26 14:51:03,996:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-26 14:51:08,153:INFO:Calculating mean and std
+2025-05-26 14:51:08,159:INFO:Creating metrics dataframe
+2025-05-26 14:51:08,177:INFO:Finalizing model
+2025-05-26 14:51:08,585:INFO:[LightGBM] [Info] Number of positive: 3009, number of negative: 3009
+2025-05-26 14:51:08,588:INFO:[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001780 seconds.
+2025-05-26 14:51:08,588:INFO:You can set `force_col_wise=true` to remove the overhead.
+2025-05-26 14:51:08,588:INFO:[LightGBM] [Info] Total Bins 4807
+2025-05-26 14:51:08,589:INFO:[LightGBM] [Info] Number of data points in the train set: 6018, number of used features: 19
+2025-05-26 14:51:08,590:INFO:[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.500000 -> initscore=0.000000
+2025-05-26 14:51:09,621:INFO:Uploading results into container
+2025-05-26 14:51:09,623:INFO:Uploading model into container now
+2025-05-26 14:51:09,625:INFO:_master_model_container: 52
+2025-05-26 14:51:09,625:INFO:_display_container: 12
+2025-05-26 14:51:09,626:INFO:LogisticRegression(C=8.354, class_weight={}, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2025-05-26 14:51:09,627:INFO:create_model() successfully completed......................................
+2025-05-26 14:51:10,070:INFO:SubProcess create_model() end ==================================
+2025-05-26 14:51:10,070:INFO:choose_better activated
+2025-05-26 14:51:10,077:INFO:SubProcess create_model() called ==================================
+2025-05-26 14:51:10,078:INFO:Initializing create_model()
+2025-05-26 14:51:10,079:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-26 14:51:10,079:INFO:Checking exceptions
+2025-05-26 14:51:10,084:INFO:Importing libraries
+2025-05-26 14:51:10,084:INFO:Copying training dataset
+2025-05-26 14:51:10,102:INFO:Defining folds
+2025-05-26 14:51:10,102:INFO:Declaring metric variables
+2025-05-26 14:51:10,103:INFO:Importing untrained model
+2025-05-26 14:51:10,103:INFO:Declaring custom model
+2025-05-26 14:51:10,105:INFO:Logistic Regression Imported successfully
+2025-05-26 14:51:10,105:INFO:Starting cross validation
+2025-05-26 14:51:10,145:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-26 14:51:17,598:INFO:Calculating mean and std
+2025-05-26 14:51:17,601:INFO:Creating metrics dataframe
+2025-05-26 14:51:17,606:INFO:Finalizing model
+2025-05-26 14:51:17,851:INFO:[LightGBM] [Info] Number of positive: 3009, number of negative: 3009
+2025-05-26 14:51:17,854:INFO:[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001518 seconds.
+2025-05-26 14:51:17,854:INFO:You can set `force_col_wise=true` to remove the overhead.
+2025-05-26 14:51:17,854:INFO:[LightGBM] [Info] Total Bins 4807
+2025-05-26 14:51:17,855:INFO:[LightGBM] [Info] Number of data points in the train set: 6018, number of used features: 19
+2025-05-26 14:51:17,855:INFO:[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.500000 -> initscore=0.000000
+2025-05-26 14:51:18,235:INFO:Uploading results into container
+2025-05-26 14:51:18,236:INFO:Uploading model into container now
+2025-05-26 14:51:18,237:INFO:_master_model_container: 53
+2025-05-26 14:51:18,238:INFO:_display_container: 13
+2025-05-26 14:51:18,239:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2025-05-26 14:51:18,239:INFO:create_model() successfully completed......................................
+2025-05-26 14:51:18,653:INFO:SubProcess create_model() end ==================================
+2025-05-26 14:51:18,654:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False) result for Recall is 0.5296
+2025-05-26 14:51:18,655:INFO:LogisticRegression(C=8.354, class_weight={}, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False) result for Recall is 0.5296
+2025-05-26 14:51:18,655:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False) is best model
+2025-05-26 14:51:18,656:INFO:choose_better completed
+2025-05-26 14:51:18,656:INFO:Original model was better than the tuned model, hence it will be returned. NOTE: The display metrics are for the tuned model (not the original one).
+2025-05-26 14:51:18,679:INFO:_master_model_container: 53
+2025-05-26 14:51:18,680:INFO:_display_container: 12
+2025-05-26 14:51:18,682:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2025-05-26 14:51:18,682:INFO:tune_model() successfully completed......................................
+2025-05-26 14:52:10,648:INFO:Initializing plot_model()
+2025-05-26 14:52:10,648:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), plot=confusion_matrix, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2025-05-26 14:52:10,648:INFO:Checking exceptions
+2025-05-26 14:52:10,657:INFO:Preloading libraries
+2025-05-26 14:52:10,658:INFO:Copying training dataset
+2025-05-26 14:52:10,658:INFO:Plot type: confusion_matrix
+2025-05-26 14:52:10,982:INFO:Fitting Model
+2025-05-26 14:52:10,983:WARNING:c:\Users\RAUL\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\base.py:493: UserWarning: X does not have valid feature names, but LogisticRegression was fitted with feature names
+  warnings.warn(
+
+2025-05-26 14:52:10,983:INFO:Scoring test/hold-out set
+2025-05-26 14:52:11,316:INFO:Visual Rendered Successfully
+2025-05-26 14:52:11,659:INFO:plot_model() successfully completed......................................
+2025-05-26 14:52:17,253:INFO:Initializing evaluate_model()
+2025-05-26 14:52:17,253:INFO:evaluate_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=None, fit_kwargs=None, plot_kwargs=None, feature_name=None, groups=None)
+2025-05-26 14:52:17,268:INFO:Initializing plot_model()
+2025-05-26 14:52:17,269:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), plot=pipeline, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2025-05-26 14:52:17,269:INFO:Checking exceptions
+2025-05-26 14:52:17,273:INFO:Preloading libraries
+2025-05-26 14:52:17,273:INFO:Copying training dataset
+2025-05-26 14:52:17,273:INFO:Plot type: pipeline
+2025-05-26 14:52:17,741:INFO:Visual Rendered Successfully
+2025-05-26 14:52:17,963:INFO:plot_model() successfully completed......................................
+2025-05-26 14:52:19,931:INFO:Initializing plot_model()
+2025-05-26 14:52:19,931:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), plot=ks, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2025-05-26 14:52:19,931:INFO:Checking exceptions
+2025-05-26 14:52:19,935:INFO:Preloading libraries
+2025-05-26 14:52:19,935:INFO:Copying training dataset
+2025-05-26 14:52:19,935:INFO:Plot type: ks
+2025-05-26 14:52:19,936:INFO:Generating predictions / predict_proba on X_test
+2025-05-26 14:52:20,489:INFO:Visual Rendered Successfully
+2025-05-26 14:52:20,695:INFO:plot_model() successfully completed......................................
+2025-05-26 14:53:19,723:INFO:Initializing predict_model()
+2025-05-26 14:53:19,723:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002140C783880>)
+2025-05-26 14:53:19,723:INFO:Checking exceptions
+2025-05-26 14:53:19,723:INFO:Preloading libraries
+2025-05-26 14:53:25,804:INFO:Initializing save_model()
+2025-05-26 14:53:25,805:INFO:save_model(model=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), model_name=modelo_taller2_final, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\RAUL\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['edad', 'saldo_total',
+                                             'numero_productos',
+                                             'visitas_app_mes', 'usa_web',
+                                             'usa_tarjeta_credito',
+                                             'reclamos_6m',
+                                             'satisfaccion_encuesta',
+                                             'tasa_credito_personal'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=...
+                                                                                         learning_rate=0.1,
+                                                                                         max_depth=-1,
+                                                                                         min_child_samples=20,
+                                                                                         min_child_weight=0.001,
+                                                                                         min_split_gain=0.0,
+                                                                                         n_estimators=100,
+                                                                                         n_jobs=None,
+                                                                                         num_leaves=31,
+                                                                                         objective=None,
+                                                                                         random_state=None,
+                                                                                         reg_alpha=0.0,
+                                                                                         reg_lambda=0.0,
+                                                                                         subsample=1.0,
+                                                                                         subsample_for_bin=200000,
+                                                                                         subsample_freq=0),
+                                                                importance_getter='auto',
+                                                                max_features=2,
+                                                                norm_order=1,
+                                                                prefit=False,
+                                                                threshold=-inf)))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2025-05-26 14:53:25,805:INFO:Adding model into prep_pipe
+2025-05-26 14:53:25,840:INFO:modelo_taller2_final.pkl saved in current working directory
+2025-05-26 14:53:25,866:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['edad', 'saldo_total',
+                                             'numero_productos',
+                                             'visitas_app_mes', 'usa_web',
+                                             'usa_tarjeta_credito',
+                                             'reclamos_6m',
+                                             'satisfaccion_encuesta',
+                                             'tasa_credito_personal'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_feature...
+                                                                importance_getter='auto',
+                                                                max_features=2,
+                                                                norm_order=1,
+                                                                prefit=False,
+                                                                threshold=-inf))),
+                ('trained_model',
+                 LogisticRegression(C=1.0, class_weight=None, dual=False,
+                                    fit_intercept=True, intercept_scaling=1,
+                                    l1_ratio=None, max_iter=1000,
+                                    multi_class='auto', n_jobs=None,
+                                    penalty='l2', random_state=2025,
+                                    solver='lbfgs', tol=0.0001, verbose=0,
+                                    warm_start=False))],
+         verbose=False)
+2025-05-26 14:53:25,866:INFO:save_model() successfully completed......................................
+2025-05-26 14:53:32,905:INFO:Initializing plot_model()
+2025-05-26 14:53:32,905:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), plot=feature, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2025-05-26 14:53:32,906:INFO:Checking exceptions
+2025-05-26 14:53:32,911:INFO:Preloading libraries
+2025-05-26 14:53:32,911:INFO:Copying training dataset
+2025-05-26 14:53:32,911:INFO:Plot type: feature
+2025-05-26 14:53:33,170:INFO:Visual Rendered Successfully
+2025-05-26 14:53:33,387:INFO:plot_model() successfully completed......................................
