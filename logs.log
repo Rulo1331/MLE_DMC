@@ -21730,3 +21730,209 @@ Alternately, you can install this by running `pip install pycaret[models]`
 2025-05-26 12:08:55,726:INFO:Generating predictions / predict_proba on X_test
 2025-05-26 12:08:55,957:INFO:Visual Rendered Successfully
 2025-05-26 12:08:56,128:INFO:plot_model() successfully completed......................................
+2025-05-26 14:29:47,246:INFO:Initializing predict_model()
+2025-05-26 14:29:47,246:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='entropy',
+                       max_depth=3, max_features='sqrt', max_leaf_nodes=None,
+                       min_impurity_decrease=0, min_samples_leaf=5,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best'), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002140B14BE20>)
+2025-05-26 14:29:47,246:INFO:Checking exceptions
+2025-05-26 14:29:47,246:INFO:Preloading libraries
+2025-05-26 14:30:18,022:INFO:Initializing save_model()
+2025-05-26 14:30:18,023:INFO:save_model(model=DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='entropy',
+                       max_depth=3, max_features='sqrt', max_leaf_nodes=None,
+                       min_impurity_decrease=0, min_samples_leaf=5,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best'), model_name=modelo_taller2_final, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\RAUL\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['edad', 'saldo_total',
+                                             'numero_productos',
+                                             'visitas_app_mes', 'usa_web',
+                                             'usa_tarjeta_credito',
+                                             'reclamos_6m',
+                                             'satisfaccion_encuesta',
+                                             'tasa_credito_personal'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=...
+                                                                                         learning_rate=0.1,
+                                                                                         max_depth=-1,
+                                                                                         min_child_samples=20,
+                                                                                         min_child_weight=0.001,
+                                                                                         min_split_gain=0.0,
+                                                                                         n_estimators=100,
+                                                                                         n_jobs=None,
+                                                                                         num_leaves=31,
+                                                                                         objective=None,
+                                                                                         random_state=None,
+                                                                                         reg_alpha=0.0,
+                                                                                         reg_lambda=0.0,
+                                                                                         subsample=1.0,
+                                                                                         subsample_for_bin=200000,
+                                                                                         subsample_freq=0),
+                                                                importance_getter='auto',
+                                                                max_features=2,
+                                                                norm_order=1,
+                                                                prefit=False,
+                                                                threshold=-inf)))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2025-05-26 14:30:18,023:INFO:Adding model into prep_pipe
+2025-05-26 14:30:18,062:INFO:modelo_taller2_final.pkl saved in current working directory
+2025-05-26 14:30:18,091:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['edad', 'saldo_total',
+                                             'numero_productos',
+                                             'visitas_app_mes', 'usa_web',
+                                             'usa_tarjeta_credito',
+                                             'reclamos_6m',
+                                             'satisfaccion_encuesta',
+                                             'tasa_credito_personal'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_feature...
+                                                                norm_order=1,
+                                                                prefit=False,
+                                                                threshold=-inf))),
+                ('trained_model',
+                 DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None,
+                                        criterion='entropy', max_depth=3,
+                                        max_features='sqrt',
+                                        max_leaf_nodes=None,
+                                        min_impurity_decrease=0,
+                                        min_samples_leaf=5, min_samples_split=2,
+                                        min_weight_fraction_leaf=0.0,
+                                        monotonic_cst=None, random_state=2025,
+                                        splitter='best'))],
+         verbose=False)
+2025-05-26 14:30:18,091:INFO:save_model() successfully completed......................................
+2025-05-26 14:37:34,755:INFO:Initializing plot_model()
+2025-05-26 14:37:34,756:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='entropy',
+                       max_depth=3, max_features='sqrt', max_leaf_nodes=None,
+                       min_impurity_decrease=0, min_samples_leaf=5,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best'), plot=parameter, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2025-05-26 14:37:34,756:INFO:Checking exceptions
+2025-05-26 14:37:34,759:INFO:Preloading libraries
+2025-05-26 14:37:34,759:INFO:Copying training dataset
+2025-05-26 14:37:34,760:INFO:Plot type: parameter
+2025-05-26 14:37:34,763:INFO:Visual Rendered Successfully
+2025-05-26 14:37:35,069:INFO:plot_model() successfully completed......................................
+2025-05-26 14:37:36,529:INFO:Initializing plot_model()
+2025-05-26 14:37:36,529:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='entropy',
+                       max_depth=3, max_features='sqrt', max_leaf_nodes=None,
+                       min_impurity_decrease=0, min_samples_leaf=5,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best'), plot=error, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2025-05-26 14:37:36,530:INFO:Checking exceptions
+2025-05-26 14:37:36,536:INFO:Preloading libraries
+2025-05-26 14:37:36,536:INFO:Copying training dataset
+2025-05-26 14:37:36,536:INFO:Plot type: error
+2025-05-26 14:37:36,681:INFO:Fitting Model
+2025-05-26 14:37:36,682:WARNING:c:\Users\RAUL\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\base.py:493: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+
+2025-05-26 14:37:36,682:INFO:Scoring test/hold-out set
+2025-05-26 14:37:36,922:INFO:Visual Rendered Successfully
+2025-05-26 14:37:37,071:INFO:plot_model() successfully completed......................................
+2025-05-26 14:37:37,311:INFO:Initializing plot_model()
+2025-05-26 14:37:37,311:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='entropy',
+                       max_depth=3, max_features='sqrt', max_leaf_nodes=None,
+                       min_impurity_decrease=0, min_samples_leaf=5,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best'), plot=ks, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2025-05-26 14:37:37,311:INFO:Checking exceptions
+2025-05-26 14:37:37,314:INFO:Preloading libraries
+2025-05-26 14:37:37,315:INFO:Copying training dataset
+2025-05-26 14:37:37,315:INFO:Plot type: ks
+2025-05-26 14:37:37,315:INFO:Generating predictions / predict_proba on X_test
+2025-05-26 14:37:37,565:INFO:Visual Rendered Successfully
+2025-05-26 14:37:37,782:INFO:plot_model() successfully completed......................................
+2025-05-26 14:47:14,692:INFO:Initializing plot_model()
+2025-05-26 14:47:14,692:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='entropy',
+                       max_depth=3, max_features='sqrt', max_leaf_nodes=None,
+                       min_impurity_decrease=0, min_samples_leaf=5,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=2025, splitter='best'), plot=feature, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2025-05-26 14:47:14,692:INFO:Checking exceptions
+2025-05-26 14:47:14,701:INFO:Preloading libraries
+2025-05-26 14:47:14,702:INFO:Copying training dataset
+2025-05-26 14:47:14,702:INFO:Plot type: feature
+2025-05-26 14:47:14,703:WARNING:No coef_ found. Trying feature_importances_
+2025-05-26 14:47:14,923:INFO:Visual Rendered Successfully
+2025-05-26 14:47:15,141:INFO:plot_model() successfully completed......................................
+2025-05-26 14:47:46,826:INFO:Initializing create_model()
+2025-05-26 14:47:46,827:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=lr, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-26 14:47:46,827:INFO:Checking exceptions
+2025-05-26 14:47:46,855:INFO:Importing libraries
+2025-05-26 14:47:46,855:INFO:Copying training dataset
+2025-05-26 14:47:46,876:INFO:Defining folds
+2025-05-26 14:47:46,876:INFO:Declaring metric variables
+2025-05-26 14:47:46,889:INFO:Importing untrained model
+2025-05-26 14:47:46,915:INFO:Logistic Regression Imported successfully
+2025-05-26 14:47:46,973:INFO:Starting cross validation
+2025-05-26 14:47:47,014:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-26 14:48:00,734:INFO:Calculating mean and std
+2025-05-26 14:48:00,736:INFO:Creating metrics dataframe
+2025-05-26 14:48:00,746:INFO:Finalizing model
+2025-05-26 14:48:00,983:INFO:[LightGBM] [Info] Number of positive: 3009, number of negative: 3009
+2025-05-26 14:48:00,984:INFO:[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000527 seconds.
+2025-05-26 14:48:00,984:INFO:You can set `force_col_wise=true` to remove the overhead.
+2025-05-26 14:48:00,985:INFO:[LightGBM] [Info] Total Bins 4807
+2025-05-26 14:48:00,986:INFO:[LightGBM] [Info] Number of data points in the train set: 6018, number of used features: 19
+2025-05-26 14:48:00,986:INFO:[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.500000 -> initscore=0.000000
+2025-05-26 14:48:01,244:INFO:Uploading results into container
+2025-05-26 14:48:01,246:INFO:Uploading model into container now
+2025-05-26 14:48:01,270:INFO:_master_model_container: 48
+2025-05-26 14:48:01,270:INFO:_display_container: 9
+2025-05-26 14:48:01,271:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2025-05-26 14:48:01,271:INFO:create_model() successfully completed......................................
+2025-05-26 14:48:02,942:INFO:Initializing create_model()
+2025-05-26 14:48:02,942:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=lr, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-26 14:48:02,942:INFO:Checking exceptions
+2025-05-26 14:48:02,972:INFO:Importing libraries
+2025-05-26 14:48:02,973:INFO:Copying training dataset
+2025-05-26 14:48:02,991:INFO:Defining folds
+2025-05-26 14:48:02,991:INFO:Declaring metric variables
+2025-05-26 14:48:03,000:INFO:Importing untrained model
+2025-05-26 14:48:03,052:INFO:Logistic Regression Imported successfully
+2025-05-26 14:48:03,078:INFO:Starting cross validation
+2025-05-26 14:48:03,137:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-26 14:48:06,841:INFO:Calculating mean and std
+2025-05-26 14:48:06,845:INFO:Creating metrics dataframe
+2025-05-26 14:48:06,853:INFO:Finalizing model
+2025-05-26 14:48:07,025:INFO:[LightGBM] [Info] Number of positive: 3009, number of negative: 3009
+2025-05-26 14:48:07,027:INFO:[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001294 seconds.
+2025-05-26 14:48:07,027:INFO:You can set `force_col_wise=true` to remove the overhead.
+2025-05-26 14:48:07,027:INFO:[LightGBM] [Info] Total Bins 4807
+2025-05-26 14:48:07,028:INFO:[LightGBM] [Info] Number of data points in the train set: 6018, number of used features: 19
+2025-05-26 14:48:07,028:INFO:[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.500000 -> initscore=0.000000
+2025-05-26 14:48:07,317:INFO:Uploading results into container
+2025-05-26 14:48:07,318:INFO:Uploading model into container now
+2025-05-26 14:48:07,338:INFO:_master_model_container: 49
+2025-05-26 14:48:07,339:INFO:_display_container: 10
+2025-05-26 14:48:07,340:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2025-05-26 14:48:07,340:INFO:create_model() successfully completed......................................
+2025-05-26 14:48:14,218:INFO:Initializing tune_model()
+2025-05-26 14:48:14,218:INFO:tune_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002140C83BC10>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2025, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=None, round=4, n_iter=10, custom_grid=None, optimize=AUC, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={})
+2025-05-26 14:48:14,219:INFO:Checking exceptions
+2025-05-26 14:48:14,238:INFO:Copying training dataset
+2025-05-26 14:48:14,246:INFO:Checking base model
+2025-05-26 14:48:14,246:INFO:Base model : Logistic Regression
+2025-05-26 14:48:14,251:INFO:Declaring metric variables
+2025-05-26 14:48:14,255:INFO:Defining Hyperparameters
+2025-05-26 14:48:14,496:INFO:Tuning with n_jobs=-1
+2025-05-26 14:48:14,496:INFO:Initializing RandomizedSearchCV
