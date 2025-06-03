@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/CURSOS/DMC/Especializaci%C3%B3n%20en%20Machine%20Learning%20Engineer/DMC_codigos/MLE_DMC/Clase8/Ejercicio1/mlruns/930643351978020201/b8f2ae7c6b744706900140564ef46b74/artifacts
+end_time: 1748915230368
+entry_point_name: ''
+experiment_id: '930643351978020201'
+lifecycle_stage: active
+run_id: b8f2ae7c6b744706900140564ef46b74
+run_name: SVM - Linear Kernel
+run_uuid: b8f2ae7c6b744706900140564ef46b74
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748915230068
+status: 3
+tags: []
+user_id: RAUL

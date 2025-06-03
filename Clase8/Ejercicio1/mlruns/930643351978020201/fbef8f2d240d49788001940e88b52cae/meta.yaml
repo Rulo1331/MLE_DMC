@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/CURSOS/DMC/Especializaci%C3%B3n%20en%20Machine%20Learning%20Engineer/DMC_codigos/MLE_DMC/Clase8/Ejercicio1/mlruns/930643351978020201/fbef8f2d240d49788001940e88b52cae/artifacts
+end_time: 1748915226240
+entry_point_name: ''
+experiment_id: '930643351978020201'
+lifecycle_stage: active
+run_id: fbef8f2d240d49788001940e88b52cae
+run_name: Ridge Classifier
+run_uuid: fbef8f2d240d49788001940e88b52cae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748915225950
+status: 3
+tags: []
+user_id: RAUL

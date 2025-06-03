@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/CURSOS/DMC/Especializaci%C3%B3n%20en%20Machine%20Learning%20Engineer/DMC_codigos/MLE_DMC/Clase8/Ejercicio1/mlruns/930643351978020201/33766792508a47f2bb5dba437bf73b12/artifacts
+end_time: 1748915229024
+entry_point_name: ''
+experiment_id: '930643351978020201'
+lifecycle_stage: active
+run_id: 33766792508a47f2bb5dba437bf73b12
+run_name: Gradient Boosting Classifier
+run_uuid: 33766792508a47f2bb5dba437bf73b12
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748915228664
+status: 3
+tags: []
+user_id: RAUL

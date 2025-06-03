@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/CURSOS/DMC/Especializaci%C3%B3n%20en%20Machine%20Learning%20Engineer/DMC_codigos/MLE_DMC/Clase8/Ejercicio1/mlruns/930643351978020201/a45ec0f22a20406b821cd795b03fec03/artifacts
+end_time: 1748915227097
+entry_point_name: ''
+experiment_id: '930643351978020201'
+lifecycle_stage: active
+run_id: a45ec0f22a20406b821cd795b03fec03
+run_name: Dummy Classifier
+run_uuid: a45ec0f22a20406b821cd795b03fec03
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748915226775
+status: 3
+tags: []
+user_id: RAUL
