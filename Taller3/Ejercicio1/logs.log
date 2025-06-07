@@ -10638,3 +10638,13 @@ dtype: int64}]))),
 2025-06-06 22:38:40,482:INFO:Preloading libraries
 2025-06-06 22:38:40,482:INFO:Set up data.
 2025-06-06 22:38:40,485:INFO:Set up index.
+2025-06-06 22:41:10,351:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-06 22:41:10,352:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-06 22:41:10,352:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-06 22:41:10,353:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-06 22:41:13,506:INFO:Initializing load_model()
+2025-06-06 22:41:13,506:INFO:load_model(model_name=modelo_responde_oferta_mlflow, platform=None, authentication=None, verbose=True)
