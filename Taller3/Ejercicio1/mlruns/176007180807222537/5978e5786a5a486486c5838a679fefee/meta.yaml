@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/CURSOS/DMC/Especializaci%C3%B3n%20en%20Machine%20Learning%20Engineer/DMC_codigos/MLE_DMC/Taller3/Ejercicio1/mlruns/176007180807222537/5978e5786a5a486486c5838a679fefee/artifacts
+end_time: 1749090644743
+entry_point_name: ''
+experiment_id: '176007180807222537'
+lifecycle_stage: active
+run_id: 5978e5786a5a486486c5838a679fefee
+run_name: Extra Trees Classifier
+run_uuid: 5978e5786a5a486486c5838a679fefee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749090644431
+status: 3
+tags: []
+user_id: RAUL

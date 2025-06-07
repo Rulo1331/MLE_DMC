@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/CURSOS/DMC/Especializaci%C3%B3n%20en%20Machine%20Learning%20Engineer/DMC_codigos/MLE_DMC/Taller3/Ejercicio1/mlruns/176007180807222537/60442e4cf4d849e4b6effc9fa2afd131/artifacts
+end_time: 1749090643462
+entry_point_name: ''
+experiment_id: '176007180807222537'
+lifecycle_stage: active
+run_id: 60442e4cf4d849e4b6effc9fa2afd131
+run_name: Ada Boost Classifier
+run_uuid: 60442e4cf4d849e4b6effc9fa2afd131
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749090643124
+status: 3
+tags: []
+user_id: RAUL

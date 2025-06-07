@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/CURSOS/DMC/Especializaci%C3%B3n%20en%20Machine%20Learning%20Engineer/DMC_codigos/MLE_DMC/Taller3/Ejercicio1/mlruns/176007180807222537/02a7edd750e24289b8da79a892b5afc1/artifacts
+end_time: 1749090645200
+entry_point_name: ''
+experiment_id: '176007180807222537'
+lifecycle_stage: active
+run_id: 02a7edd750e24289b8da79a892b5afc1
+run_name: Light Gradient Boosting Machine
+run_uuid: 02a7edd750e24289b8da79a892b5afc1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749090644843
+status: 3
+tags: []
+user_id: RAUL

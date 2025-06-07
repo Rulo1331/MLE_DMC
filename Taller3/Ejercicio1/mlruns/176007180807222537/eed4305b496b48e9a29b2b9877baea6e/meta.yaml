@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/CURSOS/DMC/Especializaci%C3%B3n%20en%20Machine%20Learning%20Engineer/DMC_codigos/MLE_DMC/Taller3/Ejercicio1/mlruns/176007180807222537/eed4305b496b48e9a29b2b9877baea6e/artifacts
+end_time: 1749091519624
+entry_point_name: ''
+experiment_id: '176007180807222537'
+lifecycle_stage: active
+run_id: eed4305b496b48e9a29b2b9877baea6e
+run_name: Decision Tree Classifier
+run_uuid: eed4305b496b48e9a29b2b9877baea6e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749091519350
+status: 3
+tags: []
+user_id: RAUL

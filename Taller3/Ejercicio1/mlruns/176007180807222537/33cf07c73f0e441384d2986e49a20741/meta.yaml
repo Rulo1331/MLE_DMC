@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/CURSOS/DMC/Especializaci%C3%B3n%20en%20Machine%20Learning%20Engineer/DMC_codigos/MLE_DMC/Taller3/Ejercicio1/mlruns/176007180807222537/33cf07c73f0e441384d2986e49a20741/artifacts
+end_time: 1749091520395
+entry_point_name: ''
+experiment_id: '176007180807222537'
+lifecycle_stage: active
+run_id: 33cf07c73f0e441384d2986e49a20741
+run_name: Naive Bayes
+run_uuid: 33cf07c73f0e441384d2986e49a20741
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749091520103
+status: 3
+tags: []
+user_id: RAUL

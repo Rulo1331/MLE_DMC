@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/CURSOS/DMC/Especializaci%C3%B3n%20en%20Machine%20Learning%20Engineer/DMC_codigos/MLE_DMC/Taller3/Ejercicio1/mlruns/176007180807222537/38275125308045d69dbaf4c03a1bcd45/artifacts
+end_time: 1749091517542
+entry_point_name: ''
+experiment_id: '176007180807222537'
+lifecycle_stage: active
+run_id: 38275125308045d69dbaf4c03a1bcd45
+run_name: Logistic Regression
+run_uuid: 38275125308045d69dbaf4c03a1bcd45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749091517249
+status: 3
+tags: []
+user_id: RAUL

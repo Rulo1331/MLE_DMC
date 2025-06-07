@@ -1,0 +1,15 @@
+artifact_uri: file:D:/CURSOS/DMC/Especialización en Machine Learning Engineer/DMC_codigos/MLE_DMC/Taller3/Ejercicio1/mlruns/380287571462071820/d2056e39d78041beadc28ac789d296aa/artifacts
+end_time: 1749266759576
+entry_point_name: ''
+experiment_id: '380287571462071820'
+lifecycle_stage: active
+run_id: d2056e39d78041beadc28ac789d296aa
+run_name: AutoML_pycaret
+run_uuid: d2056e39d78041beadc28ac789d296aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749266370848
+status: 4
+tags: []
+user_id: RAUL
