@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/950d02f01fc4499ab0a5dce15aab5928/artifacts
+end_time: 1749691289380
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 950d02f01fc4499ab0a5dce15aab5928
+run_name: Decision Tree Classifier
+run_uuid: 950d02f01fc4499ab0a5dce15aab5928
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749691288699
+status: 3
+tags: []
+user_id: RAUL

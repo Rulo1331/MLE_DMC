@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/3/9579d2444f6c45359e3fe60e805074ea/artifacts
+end_time: 1749692874362
+entry_point_name: ''
+experiment_id: '3'
+lifecycle_stage: active
+run_id: 9579d2444f6c45359e3fe60e805074ea
+run_name: AdaBoost Regressor
+run_uuid: 9579d2444f6c45359e3fe60e805074ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749692873425
+status: 3
+tags: []
+user_id: RAUL

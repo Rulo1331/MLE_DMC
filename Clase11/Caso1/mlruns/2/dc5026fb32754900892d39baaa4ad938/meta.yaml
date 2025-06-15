@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/2/dc5026fb32754900892d39baaa4ad938/artifacts
+end_time: 1749692714912
+entry_point_name: ''
+experiment_id: '2'
+lifecycle_stage: active
+run_id: dc5026fb32754900892d39baaa4ad938
+run_name: Orthogonal Matching Pursuit
+run_uuid: dc5026fb32754900892d39baaa4ad938
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749692714427
+status: 3
+tags: []
+user_id: RAUL

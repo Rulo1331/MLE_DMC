@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/6e50e416f760439b98ada12661947a34/artifacts
+end_time: 1749690382248
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 6e50e416f760439b98ada12661947a34
+run_name: Gradient Boosting Classifier
+run_uuid: 6e50e416f760439b98ada12661947a34
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749690380963
+status: 3
+tags: []
+user_id: RAUL

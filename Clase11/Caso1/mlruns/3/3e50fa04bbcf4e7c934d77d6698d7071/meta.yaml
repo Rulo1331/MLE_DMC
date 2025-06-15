@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/3/3e50fa04bbcf4e7c934d77d6698d7071/artifacts
+end_time: 1749692887560
+entry_point_name: ''
+experiment_id: '3'
+lifecycle_stage: active
+run_id: 3e50fa04bbcf4e7c934d77d6698d7071
+run_name: Decision Tree Regressor
+run_uuid: 3e50fa04bbcf4e7c934d77d6698d7071
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749692886909
+status: 3
+tags: []
+user_id: RAUL

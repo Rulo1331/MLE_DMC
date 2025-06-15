@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/2/bc6d3671ddf940c58edcd101510a5412/artifacts
+end_time: 1749692816162
+entry_point_name: ''
+experiment_id: '2'
+lifecycle_stage: active
+run_id: bc6d3671ddf940c58edcd101510a5412
+run_name: Extra Trees Regressor
+run_uuid: bc6d3671ddf940c58edcd101510a5412
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749692815151
+status: 3
+tags: []
+user_id: RAUL

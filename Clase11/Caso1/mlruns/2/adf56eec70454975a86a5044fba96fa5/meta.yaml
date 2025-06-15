@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/2/adf56eec70454975a86a5044fba96fa5/artifacts
+end_time: 1749692705345
+entry_point_name: ''
+experiment_id: '2'
+lifecycle_stage: active
+run_id: adf56eec70454975a86a5044fba96fa5
+run_name: Lasso Regression
+run_uuid: adf56eec70454975a86a5044fba96fa5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749692704803
+status: 3
+tags: []
+user_id: RAUL

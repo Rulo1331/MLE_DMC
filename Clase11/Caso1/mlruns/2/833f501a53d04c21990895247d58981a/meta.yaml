@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/2/833f501a53d04c21990895247d58981a/artifacts
+end_time: 1749692719919
+entry_point_name: ''
+experiment_id: '2'
+lifecycle_stage: active
+run_id: 833f501a53d04c21990895247d58981a
+run_name: Dummy Regressor
+run_uuid: 833f501a53d04c21990895247d58981a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749692719351
+status: 3
+tags: []
+user_id: RAUL

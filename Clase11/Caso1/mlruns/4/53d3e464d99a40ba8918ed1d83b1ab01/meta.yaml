@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/4/53d3e464d99a40ba8918ed1d83b1ab01/artifacts
+end_time: 1749692932700
+entry_point_name: ''
+experiment_id: '4'
+lifecycle_stage: active
+run_id: 53d3e464d99a40ba8918ed1d83b1ab01
+run_name: Huber Regressor
+run_uuid: 53d3e464d99a40ba8918ed1d83b1ab01
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749692932206
+status: 3
+tags: []
+user_id: RAUL

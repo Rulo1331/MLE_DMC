@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/2/c5b3762f5f2d43acb0a57eb993da7b48/artifacts
+end_time: 1749692813593
+entry_point_name: ''
+experiment_id: '2'
+lifecycle_stage: active
+run_id: c5b3762f5f2d43acb0a57eb993da7b48
+run_name: Least Angle Regression
+run_uuid: c5b3762f5f2d43acb0a57eb993da7b48
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749692813122
+status: 3
+tags: []
+user_id: RAUL

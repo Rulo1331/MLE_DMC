@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/319be62abc874f7283294764f9271efb/artifacts
+end_time: 1749690750758
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 319be62abc874f7283294764f9271efb
+run_name: SVM - Linear Kernel
+run_uuid: 319be62abc874f7283294764f9271efb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749690749945
+status: 3
+tags: []
+user_id: RAUL

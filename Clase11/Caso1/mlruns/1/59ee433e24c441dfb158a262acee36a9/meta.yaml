@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/59ee433e24c441dfb158a262acee36a9/artifacts
+end_time: 1749690744005
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 59ee433e24c441dfb158a262acee36a9
+run_name: Naive Bayes
+run_uuid: 59ee433e24c441dfb158a262acee36a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749690743448
+status: 3
+tags: []
+user_id: RAUL

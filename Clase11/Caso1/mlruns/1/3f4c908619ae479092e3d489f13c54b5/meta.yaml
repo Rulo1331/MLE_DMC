@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/3f4c908619ae479092e3d489f13c54b5/artifacts
+end_time: 1749690391935
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 3f4c908619ae479092e3d489f13c54b5
+run_name: K Neighbors Classifier
+run_uuid: 3f4c908619ae479092e3d489f13c54b5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749690390888
+status: 3
+tags: []
+user_id: RAUL

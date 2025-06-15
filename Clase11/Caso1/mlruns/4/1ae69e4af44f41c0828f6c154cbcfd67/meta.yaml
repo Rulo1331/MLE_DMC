@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/4/1ae69e4af44f41c0828f6c154cbcfd67/artifacts
+end_time: 1749692925477
+entry_point_name: ''
+experiment_id: '4'
+lifecycle_stage: active
+run_id: 1ae69e4af44f41c0828f6c154cbcfd67
+run_name: Lasso Least Angle Regression
+run_uuid: 1ae69e4af44f41c0828f6c154cbcfd67
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749692924965
+status: 3
+tags: []
+user_id: RAUL

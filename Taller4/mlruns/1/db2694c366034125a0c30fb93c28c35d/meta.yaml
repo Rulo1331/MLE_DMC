@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/db2694c366034125a0c30fb93c28c35d/artifacts
+end_time: 1749696406985
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: db2694c366034125a0c30fb93c28c35d
+run_name: Random Forest Classifier
+run_uuid: db2694c366034125a0c30fb93c28c35d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749696406618
+status: 3
+tags: []
+user_id: RAUL

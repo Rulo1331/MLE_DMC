@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/2/5d08e6014baa4c9896adbd2fa267f6c9/artifacts
+end_time: 1749692812208
+entry_point_name: ''
+experiment_id: '2'
+lifecycle_stage: active
+run_id: 5d08e6014baa4c9896adbd2fa267f6c9
+run_name: Linear Regression
+run_uuid: 5d08e6014baa4c9896adbd2fa267f6c9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749692811696
+status: 3
+tags: []
+user_id: RAUL

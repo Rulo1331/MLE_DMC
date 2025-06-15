@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/555a08b75a4c42beb50ddfb7491bf492/artifacts
+end_time: 1749690745090
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 555a08b75a4c42beb50ddfb7491bf492
+run_name: Linear Discriminant Analysis
+run_uuid: 555a08b75a4c42beb50ddfb7491bf492
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749690744201
+status: 3
+tags: []
+user_id: RAUL

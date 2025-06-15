@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/5e11ce09085948eeb10ccd39c0d88626/artifacts
+end_time: 1749689536045
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 5e11ce09085948eeb10ccd39c0d88626
+run_name: Quadratic Discriminant Analysis
+run_uuid: 5e11ce09085948eeb10ccd39c0d88626
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749689535371
+status: 3
+tags: []
+user_id: RAUL

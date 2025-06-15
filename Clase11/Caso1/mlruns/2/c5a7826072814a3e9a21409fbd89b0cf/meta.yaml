@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/2/c5a7826072814a3e9a21409fbd89b0cf/artifacts
+end_time: 1749692817497
+entry_point_name: ''
+experiment_id: '2'
+lifecycle_stage: active
+run_id: c5a7826072814a3e9a21409fbd89b0cf
+run_name: Gradient Boosting Regressor
+run_uuid: c5a7826072814a3e9a21409fbd89b0cf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749692816664
+status: 3
+tags: []
+user_id: RAUL

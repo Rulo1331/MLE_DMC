@@ -1,0 +1,8 @@
+name: upsell_seguro-env
+channels:
+- conda-forge
+dependencies:
+- pip<=25.1.1
+- pip:
+  - mlflow
+  - pycaret==3.2.0

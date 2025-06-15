@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/5/c3cbd96984c74ec4a12df440fcbb4be4/artifacts
+end_time: 1749693968367
+entry_point_name: ''
+experiment_id: '5'
+lifecycle_stage: active
+run_id: c3cbd96984c74ec4a12df440fcbb4be4
+run_name: Ada Boost Classifier
+run_uuid: c3cbd96984c74ec4a12df440fcbb4be4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749693966702
+status: 3
+tags: []
+user_id: RAUL

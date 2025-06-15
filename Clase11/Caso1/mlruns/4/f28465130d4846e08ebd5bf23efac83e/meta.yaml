@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/4/f28465130d4846e08ebd5bf23efac83e/artifacts
+end_time: 1749692934338
+entry_point_name: ''
+experiment_id: '4'
+lifecycle_stage: active
+run_id: f28465130d4846e08ebd5bf23efac83e
+run_name: CatBoost Regressor
+run_uuid: f28465130d4846e08ebd5bf23efac83e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749692933830
+status: 3
+tags: []
+user_id: RAUL

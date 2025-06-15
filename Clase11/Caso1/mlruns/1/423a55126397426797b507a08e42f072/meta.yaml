@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/423a55126397426797b507a08e42f072/artifacts
+end_time: 1749689535101
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 423a55126397426797b507a08e42f072
+run_name: Dummy Classifier
+run_uuid: 423a55126397426797b507a08e42f072
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749689534514
+status: 3
+tags: []
+user_id: RAUL

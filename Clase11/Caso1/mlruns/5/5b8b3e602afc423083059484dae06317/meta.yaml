@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/5/5b8b3e602afc423083059484dae06317/artifacts
+end_time: 1749693849796
+entry_point_name: ''
+experiment_id: '5'
+lifecycle_stage: active
+run_id: 5b8b3e602afc423083059484dae06317
+run_name: Session Initialized 4f9c
+run_uuid: 5b8b3e602afc423083059484dae06317
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749693751871
+status: 3
+tags: []
+user_id: RAUL

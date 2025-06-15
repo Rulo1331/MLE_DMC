@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/8b7161f47cb64f9ba75a54bc1e0e9dce/artifacts
+end_time: 1749696706653
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 8b7161f47cb64f9ba75a54bc1e0e9dce
+run_name: CatBoost Classifier
+run_uuid: 8b7161f47cb64f9ba75a54bc1e0e9dce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749696706216
+status: 3
+tags: []
+user_id: RAUL

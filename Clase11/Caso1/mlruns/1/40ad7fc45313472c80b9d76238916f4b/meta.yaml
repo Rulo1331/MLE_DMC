@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/40ad7fc45313472c80b9d76238916f4b/artifacts
+end_time: 1749690390511
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 40ad7fc45313472c80b9d76238916f4b
+run_name: Ridge Classifier
+run_uuid: 40ad7fc45313472c80b9d76238916f4b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749690389709
+status: 3
+tags: []
+user_id: RAUL
